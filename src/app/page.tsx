@@ -15,11 +15,11 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl font-semibold text-slate-700 dark:text-slate-200 mb-12 leading-relaxed">
-              Cybersecurity Specialist | VAPT Enthusiast | Network Security Analyst <br/>
-              <span className="text-indigo-600 dark:text-indigo-400 font-bold">
-                Architecture & Network Security | Gujarat University
-              </span>
-            </p>
+  Cybersecurity Researcher | VAPT Enthusiast | Architecture & Network Security <br/>
+  <span className="text-indigo-600 dark:text-indigo-400 font-bold">
+    Bachelor's Completed | M.Sc. IT (Architecture & Network Security) | Gujarat University
+  </span>
+</p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href="#projects" className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold py-4 px-10 rounded-2xl shadow-xl hover:scale-105 transition">
@@ -42,26 +42,52 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-indigo-600">About Me</h2>
 
-              <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
-                I am a Cybersecurity professional with a strong academic background in Architecture 
-                and Network Security from Gujarat University. I have successfully completed my Bachelor's 
-                degree and curently pursuing masters.
-              </p>
+             <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
+    I am a Cybersecurity enthusiast specializing in Architecture and Network Security.
+    I have successfully completed my Bachelor's degree and am currently pursuing
+    a Master's degree (M.Sc. IT – Architecture & Network Security) from Gujarat University.
+  </p>
 
-              <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-8">
-                My primary interest lies in Vulnerability Assessment and Penetration Testing (VAPT), 
-                where I identify and exploit real-world vulnerabilities in web applications, 
-                networks, and systems before malicious attackers can.
-              </p>
+    <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
+  During my academic journey, I completed a 3-month cybersecurity internship where
+  I gained hands-on experience in vulnerability assessment, reconnaissance,
+  security testing, and network security analysis. This experience strengthened
+  my practical understanding of real-world cyber threats and defensive security practices.
+</p>
+
+<p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-8">
+  My primary area of interest is Vulnerability Assessment and Penetration Testing (VAPT).
+  I enjoy identifying security weaknesses in web applications, networks, APIs,
+  and systems before malicious actors can exploit them. I continuously improve my
+  skills through hands-on labs, OSINT investigations, penetration testing projects,
+  and security research.
+</p>
 
               <h3 className="text-xl font-bold mb-4">VAPT Tools & Technologies</h3>
 
               <div className="flex flex-wrap gap-3">
                 {[
-                  "Nmap", "Burp Suite", "OWASP ZAP", "Metasploit",
-                  "Wireshark", "Nikto", "Hydra", "SQLmap",
-                  "Gobuster", "Netcat", "Kali Linux", "Splunk"
-                ].map((tool) => (
+  "Nmap",
+  "Burp Suite",
+  "OWASP ZAP",
+  "Metasploit",
+  "Wireshark",
+  "Nikto",
+  "Hydra",
+  "SQLmap",
+  "Gobuster",
+  "Netcat",
+  "Kali Linux",
+  "Splunk",
+  "Nessus",
+  "OpenVAS",
+  "Amass",
+  "Subfinder",
+  "Dirsearch",
+  "John The Ripper",
+  "Hashcat",
+  "BloodHound"
+].map((tool) => (
                   <span key={tool} className="px-4 py-2 bg-slate-200 dark:bg-slate-700 rounded-full text-sm font-semibold">
                     {tool}
                   </span>
@@ -80,6 +106,24 @@ export default function Home() {
 
           </div>
         </section>
+
+        <div className="mt-8 p-6 rounded-2xl bg-indigo-50 dark:bg-slate-800 border border-indigo-200 dark:border-slate-700">
+  <h3 className="text-xl font-bold mb-3 text-indigo-600">
+    Internship Experience
+  </h3>
+
+  <p className="text-slate-700 dark:text-slate-300">
+    Completed a 3-Month Cybersecurity Internship focused on:
+  </p>
+
+  <ul className="mt-3 list-disc list-inside text-slate-700 dark:text-slate-300 space-y-2">
+    <li>Vulnerability Assessment & Penetration Testing (VAPT)</li>
+    <li>Web Application Security Testing</li>
+    <li>OSINT & Reconnaissance</li>
+    <li>Network Security Monitoring</li>
+    <li>Security Reporting & Documentation</li>
+  </ul>
+</div>
 
 
         {/* ================= PROJECTS ================= */}
